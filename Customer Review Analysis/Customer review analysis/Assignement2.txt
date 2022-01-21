@@ -1,0 +1,9 @@
+1. Scrapped Data from Trustpilot: Scrapping.ipynb
+2. Published the Scrap data into Amazon Mechanical Turk: Input_Turk.csv
+3. Results of the MTurk: Mturk_batch_results.csv
+4. Push the Scrapped data into AWS S3 bucket: S3_bucket.ipynb
+5. Append all the datas from S3 bucket: Master_data_notebook.ipynb
+6. Implemented NLP on the given op_spam dataset to train the model and implemented the model on Master Data set. Pushed the Master Dataset with the results of the NLP model into the S3 bucket: NLP_Assignment2.ipynb
+7. Results of the Master data given by the NLP model: NLP_ScrappedData
+8. Link to S3 bucket for the Scrapped data: https://admassignment2.s3.amazonaws.com/ScrappedData/Review_file_Team5.csv
+9. Link to S3 bucket for the NLP results of the Master Data: https://admassignment2.s3.amazonaws.com/NLP/NLP_Team5.csv 
